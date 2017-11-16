@@ -1,0 +1,24 @@
+{
+  "name": "cotacao",
+  "version": "1.0.0",
+  "description": "Cotações da Cotação",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renatoargh/cotacao.git"
+  },
+  "author": "Renato Gama <renato@gammasoft.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/renatoargh/cotacao/issues"
+  },
+  "homepage": "https://github.com/renatoargh/cotacao#readme",
+  "dependencies": {
+    "big.js": "^5.0.3",
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.83.0"
+  }
+}
