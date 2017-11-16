@@ -80,7 +80,8 @@ const listar = (iof, cb) => {
       let valor = cheerio.load($tds.get(1))
       valor = valor.text()
       valor = removerMascara(valor)
-      valor = new Big(1).div(valor).times(iof + 1).valueOf()
+      valor = new Big(valor).times(1 + iof)
+      valor = new Big(1).div(valor).valueOf()
       valor = parseFloat(valor)
 
       moedas.push(moeda)
